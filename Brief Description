@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPAHOLIC-INDIA | Baby Products</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .container { width: 80%; margin: auto; }
+        h1 { color: #333; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+        .product { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { width: 100px; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to SHOPAHOLIC-INDIA</h1>
+    <p>Delivering quality baby products across India.</p>
+    
+    <h2>Our Baby Diapers Collection</h2>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/100" alt="Bumtum">
+                <h3>Bumtum</h3>
+                <p>Soft and absorbent baby diapers.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/100" alt="Luvlap">
+                <h3>Luvlap</h3>
+                <p>Breathable and leak-proof diapers.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/100" alt="Mylo">
+                <h3>Mylo</h3>
+                <p>Gentle on baby’s skin with extra comfort.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/100" alt="Mamy Poko Pants">
+                <h3>Mamy Poko Pants</h3>
+                <p>Extra absorbent overnight diapers.</p>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Contact Us</h2>
+    <p>Email: shopaholicindia@gmail.com</p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+</body>
+</html>
